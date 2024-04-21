@@ -1,6 +1,6 @@
 
 -name: Test Connection to y servers
- hosts : all
+ hosts: all
  become: no
  task:
   -name: Ping my Servers
