@@ -1,7 +1,7 @@
 
 -name: Test Connection to y servers
- hosts: all
- become: no
- task:
-  -name: Ping my Servers
-  ping:
+  hosts: all
+  become: no
+  task:
+    -name: Ping my Servers
+    ping:
