@@ -1,0 +1,6 @@
+- name: Test Connection to servers 
+  hosts: all
+  become: no
+  task:
+  - name: Ping my Servers
+    ping: 
